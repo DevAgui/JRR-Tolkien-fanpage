@@ -1,0 +1,57 @@
+/*esta hoja de estilo es para combinar el css de bootstrap y ampliar y personalizar todas las clases*/
+
+
+/*              fonts                   */
+
+
+@font-face {
+    font-family: Texto;
+    src: url("../fonts/texto.ttf");
+}
+body{
+    font-family: Texto;
+}
+
+
+/*              colores                   */
+
+
+.bg-nav{
+    background-color: #f3cf75;
+}
+.bg-primario{
+    background-color:#fae6ba;
+}
+.text-primario{
+    color:#fcb400;
+}
+.btn-primario{
+    background-color: #F3CF75;
+}
+
+
+/*              imágenes                   */
+
+
+body{
+    background-image: url("../images/tierramedia.jpg");
+    background-position: 50%;
+}
+#tolkien-hero{
+    height: 95vh;
+}
+
+#legendarium{
+    height: 95vh;
+}
+.card>img{
+    height: 45vh;
+}
+
+/*              diseño botones                   */
+
+
+.btn-primario:hover{
+    color: #F3CF75;
+    background-color: black;
+}
